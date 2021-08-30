@@ -1,0 +1,61 @@
+
+.card-body{
+    height: 275px ;
+    
+}
+
+.card{
+    background-color:rgb(20, 149, 149);
+    transition: 0.7s;
+}
+.card h5{
+    color:white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card p {
+    color:white;
+    font-weight: 600;
+}
+.card h1{
+    font-size: 20px;
+    font-weight: 800;
+    color:white;
+    
+}
+
+.price{
+    margin-top:20px;
+    font-size: 18px;
+    color:white !important;
+}.card:hover{
+    transform: scale(1.1);
+    background-color: rgb(5,110,110);
+ 
+}
+.card:hover p{
+    color:white;
+}
+.card:hover h5{
+    color:white;
+}
+.card:hover h1{
+    color:white;
+}
+.card:hover .price{
+    color:white !important;
+}
+.card .mybtn{
+    background-color:rgb(35, 118, 133) !important;
+    color:white;
+}
+.card:hover .mybtn{
+    background-color: white !important;
+    color: rgb(5,110,110);
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}

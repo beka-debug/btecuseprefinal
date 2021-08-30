@@ -1,0 +1,66 @@
+<section>
+    <p class="secned">Tell Your Security Needs</p>
+
+    <form class="main" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <div class="interest">
+            <p class="interp">Interested In:</p>
+        </div>
+        <fieldset ngModelGroup="customerNeeds">
+            <div class="checks">
+                <div class="pair firstpair">
+                    <input name="videoVerification" ngModel type="checkbox">
+                    <label for="">Video Verification</label>
+                </div>
+                <div class="pair">
+                    <input name="accessControlSystems" ngModel type="checkbox">
+                    <label for="">Access Control Systems</label>
+                </div>
+                <div class="pair">
+                    <input name="alarmSystems" ngModel type="checkbox">
+                    <label for="">Alarm Systems</label>
+                </div>
+                <div class="pair">
+                    <input name="doorControls" ngModel type="checkbox">
+                    <label for="">Door Controls</label>
+                </div>
+                <div class="pair firstpair">
+                    <input name="retailVideoAnalytics" ngModel type="checkbox">
+                    <label for="">Retail Video Analytics</label>
+                </div>
+                <div class="pair">
+                    <input name="amartPhoneSecurity" ngModel type="checkbox">
+                    <label for="">Smart Phone Security</label>
+                </div>
+                <div class="pair">
+                    <input name="iPVideo" ngModel type="checkbox">
+                    <label for="">IP Video</label>
+                </div>
+                <div class="pair ">
+                    <input name="recordMovements" ngModel type="checkbox">
+                    <label for="">Record Movements</label>
+                </div>
+                <div class="pair firstpair">
+                    <input name="fullHourMonitoring" ngModel type="checkbox">
+                    <label for="">24 Hour Monitoring</label>
+                </div>
+                <div class="pair">
+                    <input name="cloudMonitoring" ngModel type="checkbox">
+                    <label for="">Cloud Monitoring</label>
+                </div>
+            </div>
+        </fieldset>
+        <div class="inps">
+            <input name="customerName" ngModel type="text" placeholder="Your Name" required>
+            <input name="emailAddress" ngModel type="text" placeholder="Email Address" required>
+            <input name="phoneNumber" ngModel type="text" placeholder="Phone Number" required>
+            <input name="companyName" ngModel type="text" placeholder="Company Name" required>
+
+            <textarea name="message" ngModel id="" cols="30" rows="10" placeholder="Your text here"></textarea>
+            <div class="btdiv">
+                <button [disabled]="!form.valid" mat-raised-button>Send Now</button>
+            </div>
+
+        </div>
+
+    </form>
+</section>

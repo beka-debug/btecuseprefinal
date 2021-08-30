@@ -1,0 +1,25 @@
+<section>
+    <form class="left" #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <p>Get a Free Risk Assessment of your home by Our Security Expert</p>
+        <div class="main">
+            <div class="citymobname">
+                <input name="name" ngModel type="text" required placeholder="Name">
+                <select name="country" ngModel required>
+                    <option value="country1">Country1</option>
+                    <option value="country2">Country2</option>
+                    <option value="country3">Country3</option>
+                </select>
+                <input name="mobile" ngModel type="text" placeholder="Mobile" required>
+                <div class="z">
+                    <input name="address" ngModel type="text" placeholder="Address" required>
+                </div>
+                <textarea name="message" ngModel id="" cols="30" rows="10" required placeholder="Message"></textarea>
+                <div class="but">
+                    <button [disabled]="!form.valid" mat-raised-button>Send Now</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+    <!-- <div class="right"></div> -->
+</section>

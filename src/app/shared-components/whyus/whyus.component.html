@@ -1,0 +1,28 @@
+<section class="main">
+    <div class="left">
+        <img src="https://empire-s3-production.bobvila.com/articles/wp-content/uploads/2020/06/The-Best-Indoor-Security-Cameras-for-the-Home.jpg" alt="">
+        <div class="text">
+            <p>Reasons Why Should Choose Us?</p>
+        </div>
+    </div>
+    <div class="right">
+
+     
+                <div class="myitem" *ngFor="let item of whyuslist">
+                    <div class="leftside" >
+                       <img [src]="item.icon" alt="">
+                    </div>
+                    <div class="rightside">
+                        <h3 class="title">
+                           {{item.title}}
+                        </h3>
+                        <p class="description">
+                             {{item.description}} 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+</section>

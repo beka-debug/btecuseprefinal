@@ -1,0 +1,26 @@
+<h1>Protection Packages</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 mx-auto my-5 mycard" *ngFor="let item of packages">
+            <div class="card text-center">
+                <div class="card-header"> <h1> {{item.packagetype}}</h1></div>
+                <div class="card-body">
+                    <p class="card-text">
+                        With supporting text below as a natural lead-in to additional content.
+                      </p>
+                  <h5 class="card-title">{{item.camera}}</h5>
+                  <h5 class="card-title">
+                    {{item.footage}}
+                  </h5>
+                  <h5 class="card-title">{{item.centralmonitor}}</h5>
+                  <p class="price"> {{item.price}}</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <button 
+                    (click)="buyNowClick(item.packagetype)"
+                    class="mybtn"  mdbBtn color="" mdbWavesEffect>Buy Now</button>
+                </div>
+              </div>
+          </div>
+    </div>
+</div>

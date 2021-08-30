@@ -1,0 +1,87 @@
+section{
+    display: flex;
+    height: auto;
+    background: rgba(0,120,120);
+    margin-top: 150px;
+}
+.left p{
+    margin-top: 100px;
+}
+.left{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+
+}
+
+.left p{
+    color:white;
+    font-size: 20px;
+}
+.but button{
+    color:white;
+    padding: 7px 30px;
+}
+.citymobname input{
+    width: 31%;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.but{
+    width: 100%;
+    display: flex;
+    margin-top:20px;
+    justify-content: center;
+    
+}
+
+textarea{
+    margin-top:20px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.citymobname select{
+    width: 31%;
+    height: 35px;
+}
+.citymobname{
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.z{
+    width: 900px;
+    margin-top:20px;
+    height: 35px;
+}
+.z input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.right{
+    width: 30%;
+    height: 500px;
+    background: red;
+}
+
+button {
+    background-color: #066464;
+    color: white;
+}

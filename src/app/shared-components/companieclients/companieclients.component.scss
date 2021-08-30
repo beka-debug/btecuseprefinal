@@ -1,0 +1,36 @@
+section{
+    margin-top: 50px;
+}
+table{
+
+    margin:70px auto;
+}
+
+td{
+    border-right:1px solid rgb(204, 178, 178);
+    border-bottom:1px solid rgb(204, 178, 178);
+    padding: 2px 50px;
+}
+td:last-child {
+    border-right :none;
+   
+  }
+
+h2{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 70px;
+    color: rgb(18, 53, 53);
+}
+
+.bottomnone{
+    border-bottom: none;
+}
+img{
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(60, 60, 219));
+}
+
+img:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(1, 2, 73));
+    transform: scale(1.05);
+}

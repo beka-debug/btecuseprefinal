@@ -1,0 +1,139 @@
+.carousel {
+
+    max-height: 600px;
+} 
+    img {
+    object-fit: cover;
+    max-height: 600px;   
+    }
+.carousel-caption p{
+    text-align: left
+    
+    
+}
+
+
+.capt{
+    
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+.carousel-caption{
+    
+}
+.title{
+    display: flex;
+    margin: auto;
+    width: 280px;
+    height: 70px;
+    margin-top:50px;
+    animation: x 4s forwards;
+    
+}
+.title .fir{
+    padding: 10px 20px;
+    background: rgb(10,120,120);
+    
+}
+.title .sec{
+    background: black;
+    padding: 10px 20px;
+    
+}
+    h3{
+        
+        
+        font-size: 40px;
+        margin:0;
+    }
+    .mm{
+        display: flex;
+        flex-direction: column;
+        margin-top: -300px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .allmain{
+        background: black;
+        width: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+       align-items: flex-start;
+       margin-top: -500px;
+    }
+    h4{
+        animation: z 5s forwards;
+        margin-bottom:150px;
+    }
+    .firstpi{
+        animation: pi 2s forwards;
+        
+    }
+    .secondpi{
+        animation: pii 4s forwards;
+    }
+    .thirdpi{
+        animation: piii 6s forwards; 
+    }
+    @keyframes pi{
+        0%{
+            opacity: 0;
+            
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes pii{
+        0%{
+            opacity: 0;
+            
+        }
+        50%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes piii{
+        0%{
+            opacity: 0;
+            
+        }
+        65%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes z{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 0;
+           
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes x{
+        0%{
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+            
+        }
+    }
+    
